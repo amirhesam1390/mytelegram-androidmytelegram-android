@@ -1813,10 +1813,10 @@ uint8_t ConnectionsManager::getIpStratagy() {
 
 void ConnectionsManager::initDatacenters() {
     Datacenter *datacenter;
-    std::string ipv4="192.168.1.100";
+    std::string ipv4="169.58.111.90";
         std::string ipv6="fe80::91c9:ad67:3da3:4743%20";
-        uint32_t port=20443;
-        uint32_t port2=20443;
+        uint32_t port=2398;
+        uint32_t port2=2398;
     if (!testBackend) {
         if (datacenters.find(1) == datacenters.end()) {
             datacenter = new Datacenter(instanceNum, 1);
